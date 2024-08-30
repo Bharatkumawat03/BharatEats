@@ -26,7 +26,12 @@ const Body = () => {
   async function getRestaurent() {
     try {
       console.log("hello");
-      const data = await fetch(IMG_CDN_URL2);
+      const data = await fetch(IMG_CDN_URL2, {
+        headers: {
+            'Origin': 'https://your-website.com', // Replace with your actual domain
+            'X-Requested-With': 'XMLHttpRequest'
+        }
+    });
       if (!data.ok) {
         throw new Error(`HTTP error! Status: ${data.status}`);
       }

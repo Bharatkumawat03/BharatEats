@@ -1,11 +1,22 @@
 export const IMG_CDN_URL = "https://www.swiggy.com/mapi/homepage/getCards?lat=26.912185&lng=75.783304";
 // export const IMG_CDN_URL2 = "https://www.swiggy.com/dapi/restaurants/list/v5?lat=26.912185&lng=75.783304&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";
 
+// export const IMG_CDN_URL2 = 
+// "https://corsproxy.org/?" +
+// encodeURIComponent(
+//   "https://www.swiggy.com/dapi/restaurants/list/v5?lat=26.912185&lng=75.783304&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
+// );
+
+// export const IMG_CDN_URL2 = 
+//   "https://cors-anywhere.herokuapp.com/" +
+//   encodeURIComponent(
+//     "https://www.swiggy.com/dapi/restaurants/list/v5?lat=26.912185&lng=75.783304&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
+//   );
+
 export const IMG_CDN_URL2 = 
-"https://corsproxy.org/?" +
-encodeURIComponent(
-  "https://www.swiggy.com/dapi/restaurants/list/v5?lat=26.912185&lng=75.783304&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
-);
+  "https://cors-anywhere.herokuapp.com/https://www.swiggy.com/dapi/restaurants/list/v5?lat=26.912185&lng=75.783304&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";
+
+
 
 
 // export const swiggy_menu_api_URL =
@@ -23,11 +34,16 @@ export const MENU_ITEM_TYPE_KEY =
 export const RESTAURANT_TYPE_KEY =
   "type.googleapis.com/swiggy.presentation.food.v2.Restaurant";
 
-export const swiggy_api_URL =
-  "https://corsproxy.org/?" +
-  encodeURIComponent(
-    "https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9351929&lng=77.62448069999999&page_type=DESKTOP_WEB_LISTING"
-  );
+// export const swiggy_api_URL =
+//   "https://corsproxy.org/?" +
+//   encodeURIComponent(
+//     "https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9351929&lng=77.62448069999999&page_type=DESKTOP_WEB_LISTING"
+//   );
+
+// export const swiggy_api_URL =
+//     "https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9351929&lng=77.62448069999999&page_type=DESKTOP_WEB_LISTING";
+
+export const swiggy_api_URL ="https://cors-anywhere.herokuapp.com/https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9351929&lng=77.62448069999999&page_type=DESKTOP_WEB_LISTING";
 
 // Swiggy API to get Restaurant Menu data with corsproxy
 // export const swiggy_menu_api_URL =
