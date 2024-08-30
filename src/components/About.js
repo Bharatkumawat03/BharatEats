@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Outlet } from "react-router-dom";
 import ProfileClass from "./ProfileClass";
-import UserContext from "../utils/userContext";
+import UserContext from "../utils/UserContext";
 
 const About0 = () => {
     return(

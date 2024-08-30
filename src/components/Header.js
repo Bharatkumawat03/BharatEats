@@ -1,7 +1,7 @@
 import { useState, useContext } from "react";
 import logo from "../assets/img/foodvilla.png";
 import { Link } from "react-router-dom";
-import UserContext from "../utils/userContext";
+import UserContext from "../utils/UserContext";
 import { useSelector } from "react-redux";
 
 const Header = () => {

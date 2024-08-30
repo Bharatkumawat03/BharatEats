@@ -11,7 +11,7 @@ import RestaurentMenu from "./components/RestaurentMenu";
 import Profile from "./components/profile";
 import ProfileClass from "./components/ProfileClass";
 import Shimmer from "./components/Shimmer";
-import UserContext from "./utils/userContext";
+import UserContext from "./utils/UserContext";
 import { Provider } from "react-redux";
 import store from "./utils/store";
 import Cart from "./components/Cart";
