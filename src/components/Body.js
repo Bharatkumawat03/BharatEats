@@ -25,10 +25,10 @@ const Body = () => {
 
   async function getRestaurent() {
     try {
-      console.log("hello");
+      // console.log("hello");
       const data = await fetch(IMG_CDN_URL2, {
         headers: {
-            'Origin': 'https://your-website.com', // Replace with your actual domain
+            'Origin': 'https://bharat-eats.vercel.app/',
             'X-Requested-With': 'XMLHttpRequest'
         }
     });
